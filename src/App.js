@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import HomePage from './pages/homepage/homepage.component';
+import Header from './components/header/header.component';
+import { Route, Switch } from 'react-router-dom';
 
 import logo from './logo.svg';
 import './App.css';
@@ -15,6 +17,7 @@ class App extends Component {
     return (
       <div className="App">
       <header className="App-header">
+      <Header />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
          { this.state.string }

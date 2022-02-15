@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './homepage.styles.css';
+
 import image from '../../img/tom-and-claire.jpg'
 
 
@@ -15,17 +17,10 @@ function HomePage() {
                       backgroundSize: 'cover',
                       backgroundRepeat: 'no-repeat'
                     }}>
-          Tom &amp; Claire's Wedding
+                    <div id="greeting">Tom &amp; Claire's Wedding</div>
         </div>
         </div>
     )
 }
-
-// const HomePage = () => (
-
-//     <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '../../assets/tom-and-claire.jpg'})` }}>
-//         console.log(Background)
-//     </div>
-// );
 
 export default HomePage

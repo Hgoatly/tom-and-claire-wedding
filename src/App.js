@@ -1,14 +1,25 @@
+import { Component } from 'react';
+import HomePage from './pages/homepage/homepage.component';
+
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      string: 'Hello Humlis'
+    }
+  }
+  render() {
+    return (
+      <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         { this.state.string }
         </p>
+        <button onClick={() => this.setState({ string: 'Hello Ugglis' })}>Change Greeting</button>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,9 +28,12 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
+      <HomePage/>
     </div>
-  );
+    )
+  }
 }
 
 export default App;

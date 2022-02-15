@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+#greeting {
+    font-size: 100px;
+    font-family: 'Festive', cursive;
+    color: #000000;
+    padding-top: 5%;
+    font-weight: bold;
+}

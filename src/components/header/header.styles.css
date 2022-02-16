@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+.navbar-brand {
+    font-family: 'Festive', cursive;
+    font-size: 30px !important; 
+}

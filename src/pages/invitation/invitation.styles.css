@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+.invite {
+    font-family: 'Festive', cursive;
+    padding-top: 20%;
+    color: #D4AF37;
+}
+
+.names {
+    font-size: 60px;
+    font-family: 'Festive', cursive;
+    
+}
+
+.invite-text {
+    font-size: 35px;
+    color: #D4AF37;
+}

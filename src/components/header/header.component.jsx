@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
+import './header.styles.css';
 
 
 const Header = () => (
@@ -18,7 +19,7 @@ const Header = () => (
           <NavDropdown.Item href="#action/3.2">Places to Stay</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Gift List</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Additional Information</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.4">Everything Else</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

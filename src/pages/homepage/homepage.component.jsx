@@ -11,8 +11,8 @@ function HomePage() {
                     width: '100vw'
                     }}>
         <div style={{ backgroundImage:`url(${image})`,
-                      height: '100%',
-                      width: '100%',
+                      height:'100vh',
+                      width: '100vw',
                       backgroundPosition: 'center',
                       backgroundSize: 'cover',
                       backgroundRepeat: 'no-repeat'

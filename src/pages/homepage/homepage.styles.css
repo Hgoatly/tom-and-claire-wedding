@@ -7,3 +7,9 @@
     padding-top: 5%;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    #greeting {
+        font-size: 40px;
+    }
+}

@@ -3,7 +3,10 @@ import { Component } from 'react';
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
 import Invitation from './pages/invitation/invitation.component';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router,
+  Switch,
+  Route,
+  Link } from 'react-router-dom';
 
 import logo from './logo.svg';
 import './App.css';
@@ -20,9 +23,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header />
-      <HomePage />
-      <Invitation/>
+      <Header />  
+
     </div>
     )
   }

@@ -11,6 +11,8 @@ import {
 
 import HomePage from '../../pages/homepage/homepage.component';
 import Invitation from '../../pages/invitation/invitation.component';
+import Venues from '../../pages/venues/venues.component';
+import PlacesToStay from '../../pages/places-to-stay/places-to-stay.component';
 
 
 export default class Header extends Component {
@@ -27,8 +29,8 @@ export default class Header extends Component {
             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
             <Nav.Link as={Link} to={"/invitation"}>Invitation</Nav.Link>
             <NavDropdown title="Information" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Venues</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Places to Stay</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/venues"}>Venues</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/places-to-stay"}>Places to Stay</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Gift List</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Everything Else</NavDropdown.Item>
@@ -42,6 +44,12 @@ export default class Header extends Component {
       <Routes>
       
       <Route path="/invitation" element={<Invitation/>}>
+        
+      </Route>
+      <Route path="/venues" element={<Venues/>}>
+        
+      </Route>
+      <Route path="/places-to-stay" element={<PlacesToStay/>}>
         
       </Route>
       <Route path="/" element={<HomePage />}>

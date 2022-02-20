@@ -11,5 +11,14 @@
 @media only screen and (max-width: 600px) {
     #greeting {
         font-size: 40px;
+        padding-top: 25%;
     }
+}
+
+.homepage {
+    position: relative;
+}
+
+.hero-image {
+    overflow: hidden;
 }
